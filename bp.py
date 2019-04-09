@@ -4,7 +4,7 @@
 
 import random
 from numpy import *
-
+from functools import reduce
 
 def sigmoid(inX):
     return 1.0 / (1 + exp(-inX))
